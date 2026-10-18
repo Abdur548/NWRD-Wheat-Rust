@@ -1,0 +1,40 @@
+{
+  "data_root": "/tmp/nwrd_tiles_128px_x0.5",
+  "out_dir": "/kaggle/working/runs",
+  "models": [
+    "canet_b4",
+    "unet"
+  ],
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "data_seed": 42,
+  "img_size": 128,
+  "tile_size": 128,
+  "tile_scale": 0.5,
+  "tile_dir": "",
+  "bg_keep_ratio": 0.2,
+  "epochs": 30,
+  "freeze_encoder_epochs": 3,
+  "batch_size": 8,
+  "num_workers": 4,
+  "lr": 5e-05,
+  "unet_tuned_lr": 0.001,
+  "weight_decay": 0.0001,
+  "grad_clip": 1.0,
+  "dice_weight": 0.7,
+  "bce_weight": 0.3,
+  "dropout": 0.5,
+  "sched_t0": 5,
+  "sched_tmult": 2,
+  "sched_eta_min": 1e-07,
+  "amp": true,
+  "pretrained": true,
+  "thr_lo": 0.05,
+  "thr_hi": 0.95,
+  "thr_step": 0.01,
+  "time_budget_hours": 11.0,
+  "limit": 0
+}

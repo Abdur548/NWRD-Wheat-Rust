@@ -1,0 +1,28 @@
+{
+ "source": "/kaggle/input/datasets/abdur548/nwrd-patched/wheat_rust_patches",
+ "scale": 0.5,
+ "tile": 128,
+ "splits": {
+  "train": {
+   "patches": 8160,
+   "tiles": 32640,
+   "rust_tiles": 6939,
+   "rust_pixel_fraction_patches": 0.09766065653632669,
+   "rust_pixel_fraction_tiles": 0.09787213381598978
+  },
+  "val": {
+   "patches": 480,
+   "tiles": 1920,
+   "rust_tiles": 313,
+   "rust_pixel_fraction_patches": 0.07172025839487711,
+   "rust_pixel_fraction_tiles": 0.07185713450113933
+  },
+  "test": {
+   "patches": 960,
+   "tiles": 3840,
+   "rust_tiles": 722,
+   "rust_pixel_fraction_patches": 0.08049262364705403,
+   "rust_pixel_fraction_tiles": 0.08069079717000326
+  }
+ }
+}

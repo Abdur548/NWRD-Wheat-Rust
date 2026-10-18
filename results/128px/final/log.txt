@@ -1,0 +1,304 @@
+21:59:07 data: /kaggle/input/datasets/abdur548/nwrd-patched/wheat_rust_patches
+22:00:17 tiles: train 8160 patches -> 32640 tiles (6939 with rust)
+22:00:21 tiles: val 480 patches -> 1920 tiles (313 with rust)
+22:00:30 tiles: test 960 patches -> 3840 tiles (722 with rust)
+22:00:30 data: 128px tiles at 0.5x in /tmp/nwrd_tiles_128px_x0.5
+22:00:38 [canet_b4 s42] data: {'disease': 6939, 'bg_kept': 5140, 'bg_total': 25701, 'train_used': 12079, 'val': 1920, 'pos_weight': 2.7811314368250226}
+22:02:55 [canet_b4 s42] ep 01/30 (enc frozen) train 0.4649 val 0.1364 IoU@0.5 0.6359 Dice@0.5 0.7774 (126s)
+22:04:35 [canet_b4 s42] ep 02/30 (enc frozen) train 0.4218 val 0.1322 IoU@0.5 0.6441 Dice@0.5 0.7836 (99s)
+22:06:14 [canet_b4 s42] ep 03/30 (enc frozen) train 0.3981 val 0.1337 IoU@0.5 0.6904 Dice@0.5 0.8169 (99s)
+22:10:11 [canet_b4 s42] ep 04/30 train 0.3752 val 0.1118 IoU@0.5 0.7230 Dice@0.5 0.8393 (236s)
+22:13:29 [canet_b4 s42] ep 05/30 train 0.3559 val 0.1119 IoU@0.5 0.7366 Dice@0.5 0.8483 (197s)
+22:16:47 [canet_b4 s42] ep 06/30 train 0.3643 val 0.1113 IoU@0.5 0.7848 Dice@0.5 0.8794 (197s)
+22:20:08 [canet_b4 s42] ep 07/30 train 0.3429 val 0.0977 IoU@0.5 0.7655 Dice@0.5 0.8672 (199s)
+22:23:30 [canet_b4 s42] ep 08/30 train 0.3198 val 0.0977 IoU@0.5 0.7855 Dice@0.5 0.8798 (201s)
+22:26:56 [canet_b4 s42] ep 09/30 train 0.3073 val 0.0873 IoU@0.5 0.7939 Dice@0.5 0.8851 (205s)
+22:30:24 [canet_b4 s42] ep 10/30 train 0.2965 val 0.0938 IoU@0.5 0.7706 Dice@0.5 0.8704 (206s)
+22:33:43 [canet_b4 s42] ep 11/30 train 0.2884 val 0.0904 IoU@0.5 0.7957 Dice@0.5 0.8862 (198s)
+22:37:07 [canet_b4 s42] ep 12/30 train 0.2741 val 0.0911 IoU@0.5 0.7925 Dice@0.5 0.8842 (203s)
+22:40:27 [canet_b4 s42] ep 13/30 train 0.2674 val 0.0847 IoU@0.5 0.8163 Dice@0.5 0.8989 (199s)
+22:43:42 [canet_b4 s42] ep 14/30 train 0.2627 val 0.0848 IoU@0.5 0.8062 Dice@0.5 0.8927 (194s)
+22:46:53 [canet_b4 s42] ep 15/30 train 0.2579 val 0.0842 IoU@0.5 0.8032 Dice@0.5 0.8909 (190s)
+22:50:02 [canet_b4 s42] ep 16/30 train 0.2743 val 0.1028 IoU@0.5 0.7683 Dice@0.5 0.8690 (189s)
+22:53:12 [canet_b4 s42] ep 17/30 train 0.2798 val 0.0909 IoU@0.5 0.7701 Dice@0.5 0.8701 (189s)
+22:56:22 [canet_b4 s42] ep 18/30 train 0.2693 val 0.0989 IoU@0.5 0.7322 Dice@0.5 0.8454 (189s)
+22:59:30 [canet_b4 s42] ep 19/30 train 0.2622 val 0.0944 IoU@0.5 0.7490 Dice@0.5 0.8565 (188s)
+23:02:41 [canet_b4 s42] ep 20/30 train 0.2559 val 0.0909 IoU@0.5 0.7581 Dice@0.5 0.8624 (190s)
+23:05:53 [canet_b4 s42] ep 21/30 train 0.2534 val 0.1040 IoU@0.5 0.7111 Dice@0.5 0.8311 (191s)
+23:09:05 [canet_b4 s42] ep 22/30 train 0.2429 val 0.0979 IoU@0.5 0.6735 Dice@0.5 0.8049 (191s)
+23:12:16 [canet_b4 s42] ep 23/30 train 0.2376 val 0.1058 IoU@0.5 0.6942 Dice@0.5 0.8195 (191s)
+23:15:29 [canet_b4 s42] ep 24/30 train 0.2286 val 0.1068 IoU@0.5 0.7288 Dice@0.5 0.8431 (191s)
+23:18:37 [canet_b4 s42] ep 25/30 train 0.2259 val 0.0996 IoU@0.5 0.7153 Dice@0.5 0.8340 (188s)
+23:21:49 [canet_b4 s42] ep 26/30 train 0.2211 val 0.1006 IoU@0.5 0.7132 Dice@0.5 0.8326 (191s)
+23:25:01 [canet_b4 s42] ep 27/30 train 0.2167 val 0.1036 IoU@0.5 0.7087 Dice@0.5 0.8295 (192s)
+23:28:14 [canet_b4 s42] ep 28/30 train 0.2167 val 0.1004 IoU@0.5 0.7289 Dice@0.5 0.8432 (192s)
+23:31:27 [canet_b4 s42] ep 29/30 train 0.2062 val 0.1042 IoU@0.5 0.6935 Dice@0.5 0.8190 (193s)
+23:34:42 [canet_b4 s42] ep 30/30 train 0.2044 val 0.1004 IoU@0.5 0.7083 Dice@0.5 0.8292 (194s)
+23:35:13 [canet_b4 seed42] thr 0.75 | test IoU 0.7008 Dice 0.8241 P 0.8035 R 0.8457
+23:35:13 [unet s42] data: {'disease': 6939, 'bg_kept': 5140, 'bg_total': 25701, 'train_used': 12079, 'val': 1920, 'pos_weight': 2.7811314368250226}
+23:37:24 [unet s42] ep 01/30 train 0.4419 val 0.1354 IoU@0.5 0.7007 Dice@0.5 0.8240 (131s)
+23:39:08 [unet s42] ep 02/30 train 0.3785 val 0.1351 IoU@0.5 0.7050 Dice@0.5 0.8270 (103s)
+23:40:53 [unet s42] ep 03/30 train 0.3526 val 0.1244 IoU@0.5 0.7584 Dice@0.5 0.8626 (103s)
+23:42:37 [unet s42] ep 04/30 train 0.3353 val 0.1041 IoU@0.5 0.7789 Dice@0.5 0.8757 (103s)
+23:44:21 [unet s42] ep 05/30 train 0.3185 val 0.1002 IoU@0.5 0.7858 Dice@0.5 0.8801 (103s)
+23:46:05 [unet s42] ep 06/30 train 0.3500 val 0.1145 IoU@0.5 0.7339 Dice@0.5 0.8465 (103s)
+23:47:49 [unet s42] ep 07/30 train 0.3442 val 0.1016 IoU@0.5 0.7415 Dice@0.5 0.8516 (103s)
+23:49:33 [unet s42] ep 08/30 train 0.3298 val 0.0887 IoU@0.5 0.8095 Dice@0.5 0.8947 (103s)
+23:51:17 [unet s42] ep 09/30 train 0.3227 val 0.0921 IoU@0.5 0.7913 Dice@0.5 0.8835 (103s)
+23:53:00 [unet s42] ep 10/30 train 0.3137 val 0.0928 IoU@0.5 0.7919 Dice@0.5 0.8839 (103s)
+23:54:44 [unet s42] ep 11/30 train 0.3088 val 0.1066 IoU@0.5 0.7829 Dice@0.5 0.8782 (103s)
+23:56:27 [unet s42] ep 12/30 train 0.2958 val 0.1007 IoU@0.5 0.7894 Dice@0.5 0.8823 (103s)
+23:58:11 [unet s42] ep 13/30 train 0.2909 val 0.0892 IoU@0.5 0.8140 Dice@0.5 0.8974 (103s)
+23:59:55 [unet s42] ep 14/30 train 0.2794 val 0.0843 IoU@0.5 0.8170 Dice@0.5 0.8993 (103s)
+00:01:39 [unet s42] ep 15/30 train 0.2783 val 0.0881 IoU@0.5 0.8083 Dice@0.5 0.8940 (103s)
+00:03:23 [unet s42] ep 16/30 train 0.3096 val 0.1146 IoU@0.5 0.7731 Dice@0.5 0.8720 (103s)
+00:05:06 [unet s42] ep 17/30 train 0.3145 val 0.0985 IoU@0.5 0.7367 Dice@0.5 0.8484 (103s)
+00:06:50 [unet s42] ep 18/30 train 0.3053 val 0.0921 IoU@0.5 0.8023 Dice@0.5 0.8903 (103s)
+00:08:34 [unet s42] ep 19/30 train 0.3076 val 0.0933 IoU@0.5 0.7950 Dice@0.5 0.8858 (103s)
+00:10:18 [unet s42] ep 20/30 train 0.3029 val 0.0917 IoU@0.5 0.7448 Dice@0.5 0.8537 (103s)
+00:12:02 [unet s42] ep 21/30 train 0.3004 val 0.0995 IoU@0.5 0.7944 Dice@0.5 0.8854 (103s)
+00:13:45 [unet s42] ep 22/30 train 0.2928 val 0.0893 IoU@0.5 0.7982 Dice@0.5 0.8878 (103s)
+00:15:29 [unet s42] ep 23/30 train 0.2937 val 0.0883 IoU@0.5 0.8176 Dice@0.5 0.8996 (103s)
+00:17:13 [unet s42] ep 24/30 train 0.2885 val 0.0865 IoU@0.5 0.8075 Dice@0.5 0.8935 (103s)
+00:18:56 [unet s42] ep 25/30 train 0.2860 val 0.0906 IoU@0.5 0.7961 Dice@0.5 0.8865 (103s)
+00:20:40 [unet s42] ep 26/30 train 0.2819 val 0.0883 IoU@0.5 0.8145 Dice@0.5 0.8978 (103s)
+00:22:23 [unet s42] ep 27/30 train 0.2763 val 0.0972 IoU@0.5 0.7918 Dice@0.5 0.8838 (103s)
+00:24:07 [unet s42] ep 28/30 train 0.2760 val 0.0825 IoU@0.5 0.8119 Dice@0.5 0.8962 (103s)
+00:25:50 [unet s42] ep 29/30 train 0.2670 val 0.1004 IoU@0.5 0.7831 Dice@0.5 0.8783 (103s)
+00:27:33 [unet s42] ep 30/30 train 0.2686 val 0.0884 IoU@0.5 0.7947 Dice@0.5 0.8856 (103s)
+00:27:50 [unet seed42] thr 0.60 | test IoU 0.7577 Dice 0.8621 P 0.8645 R 0.8598
+00:27:51 [canet_b4 s43] data: {'disease': 6939, 'bg_kept': 5140, 'bg_total': 25701, 'train_used': 12079, 'val': 1920, 'pos_weight': 2.7811314368250226}
+00:29:27 [canet_b4 s43] ep 01/30 (enc frozen) train 0.4692 val 0.1478 IoU@0.5 0.6266 Dice@0.5 0.7705 (97s)
+00:31:06 [canet_b4 s43] ep 02/30 (enc frozen) train 0.4135 val 0.1378 IoU@0.5 0.6808 Dice@0.5 0.8101 (98s)
+00:32:44 [canet_b4 s43] ep 03/30 (enc frozen) train 0.3914 val 0.1292 IoU@0.5 0.6875 Dice@0.5 0.8148 (98s)
+00:35:59 [canet_b4 s43] ep 04/30 train 0.3751 val 0.1146 IoU@0.5 0.7028 Dice@0.5 0.8255 (194s)
+00:39:15 [canet_b4 s43] ep 05/30 train 0.3525 val 0.1097 IoU@0.5 0.7427 Dice@0.5 0.8523 (195s)
+00:42:30 [canet_b4 s43] ep 06/30 train 0.3603 val 0.0963 IoU@0.5 0.7742 Dice@0.5 0.8728 (194s)
+00:45:44 [canet_b4 s43] ep 07/30 train 0.3355 val 0.1006 IoU@0.5 0.7806 Dice@0.5 0.8768 (193s)
+00:48:55 [canet_b4 s43] ep 08/30 train 0.3174 val 0.1070 IoU@0.5 0.7802 Dice@0.5 0.8765 (190s)
+00:52:06 [canet_b4 s43] ep 09/30 train 0.3035 val 0.0941 IoU@0.5 0.7912 Dice@0.5 0.8834 (191s)
+00:55:19 [canet_b4 s43] ep 10/30 train 0.2985 val 0.0957 IoU@0.5 0.7881 Dice@0.5 0.8815 (191s)
+00:58:31 [canet_b4 s43] ep 11/30 train 0.2857 val 0.0885 IoU@0.5 0.8083 Dice@0.5 0.8940 (192s)
+01:01:46 [canet_b4 s43] ep 12/30 train 0.2734 val 0.0871 IoU@0.5 0.7759 Dice@0.5 0.8738 (194s)
+01:05:03 [canet_b4 s43] ep 13/30 train 0.2668 val 0.0898 IoU@0.5 0.7945 Dice@0.5 0.8855 (195s)
+01:08:19 [canet_b4 s43] ep 14/30 train 0.2582 val 0.0896 IoU@0.5 0.7936 Dice@0.5 0.8849 (196s)
+01:11:35 [canet_b4 s43] ep 15/30 train 0.2616 val 0.0909 IoU@0.5 0.7968 Dice@0.5 0.8869 (195s)
+01:14:51 [canet_b4 s43] ep 16/30 train 0.2798 val 0.1022 IoU@0.5 0.7844 Dice@0.5 0.8792 (195s)
+01:18:03 [canet_b4 s43] ep 17/30 train 0.2787 val 0.0904 IoU@0.5 0.7654 Dice@0.5 0.8671 (191s)
+01:21:14 [canet_b4 s43] ep 18/30 train 0.2707 val 0.0908 IoU@0.5 0.7679 Dice@0.5 0.8687 (190s)
+01:24:26 [canet_b4 s43] ep 19/30 train 0.2590 val 0.0921 IoU@0.5 0.7778 Dice@0.5 0.8750 (192s)
+01:27:39 [canet_b4 s43] ep 20/30 train 0.2512 val 0.0946 IoU@0.5 0.7877 Dice@0.5 0.8812 (192s)
+01:30:53 [canet_b4 s43] ep 21/30 train 0.2496 val 0.0928 IoU@0.5 0.7865 Dice@0.5 0.8805 (193s)
+01:34:09 [canet_b4 s43] ep 22/30 train 0.2434 val 0.0968 IoU@0.5 0.7536 Dice@0.5 0.8595 (196s)
+01:37:27 [canet_b4 s43] ep 23/30 train 0.2380 val 0.0957 IoU@0.5 0.7420 Dice@0.5 0.8519 (197s)
+01:40:43 [canet_b4 s43] ep 24/30 train 0.2297 val 0.1017 IoU@0.5 0.7476 Dice@0.5 0.8556 (195s)
+01:43:59 [canet_b4 s43] ep 25/30 train 0.2297 val 0.1021 IoU@0.5 0.7290 Dice@0.5 0.8433 (196s)
+01:47:13 [canet_b4 s43] ep 26/30 train 0.2213 val 0.0960 IoU@0.5 0.7498 Dice@0.5 0.8570 (192s)
+01:50:26 [canet_b4 s43] ep 27/30 train 0.2092 val 0.1061 IoU@0.5 0.7102 Dice@0.5 0.8305 (192s)
+01:53:38 [canet_b4 s43] ep 28/30 train 0.2164 val 0.1019 IoU@0.5 0.7476 Dice@0.5 0.8556 (192s)
+01:56:50 [canet_b4 s43] ep 29/30 train 0.2042 val 0.1038 IoU@0.5 0.7190 Dice@0.5 0.8365 (191s)
+02:00:02 [canet_b4 s43] ep 30/30 train 0.1971 val 0.1031 IoU@0.5 0.7160 Dice@0.5 0.8345 (192s)
+02:00:33 [canet_b4 seed43] thr 0.65 | test IoU 0.7024 Dice 0.8252 P 0.8080 R 0.8431
+02:00:33 [unet s43] data: {'disease': 6939, 'bg_kept': 5140, 'bg_total': 25701, 'train_used': 12079, 'val': 1920, 'pos_weight': 2.7811314368250226}
+02:02:17 [unet s43] ep 01/30 train 0.4457 val 0.1358 IoU@0.5 0.7242 Dice@0.5 0.8401 (103s)
+02:04:01 [unet s43] ep 02/30 train 0.3740 val 0.1060 IoU@0.5 0.7740 Dice@0.5 0.8726 (103s)
+02:05:45 [unet s43] ep 03/30 train 0.3480 val 0.1172 IoU@0.5 0.7465 Dice@0.5 0.8548 (103s)
+02:07:29 [unet s43] ep 04/30 train 0.3305 val 0.1055 IoU@0.5 0.7763 Dice@0.5 0.8741 (103s)
+02:09:13 [unet s43] ep 05/30 train 0.3172 val 0.0971 IoU@0.5 0.7764 Dice@0.5 0.8741 (103s)
+02:10:58 [unet s43] ep 06/30 train 0.3445 val 0.0936 IoU@0.5 0.7865 Dice@0.5 0.8805 (103s)
+02:12:42 [unet s43] ep 07/30 train 0.3386 val 0.1022 IoU@0.5 0.7728 Dice@0.5 0.8718 (103s)
+02:14:26 [unet s43] ep 08/30 train 0.3261 val 0.1059 IoU@0.5 0.7851 Dice@0.5 0.8796 (103s)
+02:16:10 [unet s43] ep 09/30 train 0.3213 val 0.1014 IoU@0.5 0.7835 Dice@0.5 0.8786 (103s)
+02:17:53 [unet s43] ep 10/30 train 0.3184 val 0.0974 IoU@0.5 0.8037 Dice@0.5 0.8911 (103s)
+02:19:37 [unet s43] ep 11/30 train 0.3048 val 0.0982 IoU@0.5 0.8007 Dice@0.5 0.8893 (103s)
+02:21:21 [unet s43] ep 12/30 train 0.2960 val 0.0969 IoU@0.5 0.7699 Dice@0.5 0.8700 (103s)
+02:23:05 [unet s43] ep 13/30 train 0.2862 val 0.0934 IoU@0.5 0.8004 Dice@0.5 0.8891 (103s)
+02:24:49 [unet s43] ep 14/30 train 0.2801 val 0.0874 IoU@0.5 0.8113 Dice@0.5 0.8958 (103s)
+02:26:33 [unet s43] ep 15/30 train 0.2821 val 0.0900 IoU@0.5 0.8070 Dice@0.5 0.8932 (103s)
+02:28:17 [unet s43] ep 16/30 train 0.3089 val 0.0872 IoU@0.5 0.8098 Dice@0.5 0.8949 (103s)
+02:30:00 [unet s43] ep 17/30 train 0.3109 val 0.1037 IoU@0.5 0.7710 Dice@0.5 0.8707 (103s)
+02:31:44 [unet s43] ep 18/30 train 0.3051 val 0.1179 IoU@0.5 0.7580 Dice@0.5 0.8623 (103s)
+02:33:28 [unet s43] ep 19/30 train 0.3019 val 0.0847 IoU@0.5 0.8182 Dice@0.5 0.9000 (103s)
+02:35:12 [unet s43] ep 20/30 train 0.2983 val 0.0931 IoU@0.5 0.8005 Dice@0.5 0.8892 (103s)
+02:36:56 [unet s43] ep 21/30 train 0.2957 val 0.0812 IoU@0.5 0.8190 Dice@0.5 0.9005 (103s)
+02:38:41 [unet s43] ep 22/30 train 0.2910 val 0.1081 IoU@0.5 0.7737 Dice@0.5 0.8724 (103s)
+02:40:25 [unet s43] ep 23/30 train 0.2915 val 0.0820 IoU@0.5 0.8120 Dice@0.5 0.8963 (103s)
+02:42:09 [unet s43] ep 24/30 train 0.2856 val 0.0836 IoU@0.5 0.8007 Dice@0.5 0.8893 (103s)
+02:43:53 [unet s43] ep 25/30 train 0.2842 val 0.1034 IoU@0.5 0.7893 Dice@0.5 0.8822 (103s)
+02:45:37 [unet s43] ep 26/30 train 0.2786 val 0.0907 IoU@0.5 0.7968 Dice@0.5 0.8869 (103s)
+02:47:21 [unet s43] ep 27/30 train 0.2731 val 0.0889 IoU@0.5 0.7934 Dice@0.5 0.8848 (103s)
+02:49:06 [unet s43] ep 28/30 train 0.2740 val 0.0940 IoU@0.5 0.7915 Dice@0.5 0.8836 (103s)
+02:50:49 [unet s43] ep 29/30 train 0.2650 val 0.0838 IoU@0.5 0.8135 Dice@0.5 0.8972 (103s)
+02:52:33 [unet s43] ep 30/30 train 0.2614 val 0.0814 IoU@0.5 0.8053 Dice@0.5 0.8921 (103s)
+02:52:49 [unet seed43] thr 0.69 | test IoU 0.7515 Dice 0.8581 P 0.8463 R 0.8703
+02:52:50 [canet_b4 s44] data: {'disease': 6939, 'bg_kept': 5140, 'bg_total': 25701, 'train_used': 12079, 'val': 1920, 'pos_weight': 2.7811314368250226}
+02:54:30 [canet_b4 s44] ep 01/30 (enc frozen) train 0.4641 val 0.1454 IoU@0.5 0.6080 Dice@0.5 0.7562 (100s)
+02:56:10 [canet_b4 s44] ep 02/30 (enc frozen) train 0.4149 val 0.1390 IoU@0.5 0.6335 Dice@0.5 0.7757 (100s)
+02:57:49 [canet_b4 s44] ep 03/30 (enc frozen) train 0.3986 val 0.1308 IoU@0.5 0.6682 Dice@0.5 0.8011 (98s)
+03:01:10 [canet_b4 s44] ep 04/30 train 0.3822 val 0.1202 IoU@0.5 0.7150 Dice@0.5 0.8338 (200s)
+03:04:35 [canet_b4 s44] ep 05/30 train 0.3495 val 0.1085 IoU@0.5 0.7485 Dice@0.5 0.8561 (204s)
+03:07:59 [canet_b4 s44] ep 06/30 train 0.3603 val 0.1088 IoU@0.5 0.7474 Dice@0.5 0.8555 (203s)
+03:11:23 [canet_b4 s44] ep 07/30 train 0.3338 val 0.0921 IoU@0.5 0.7648 Dice@0.5 0.8668 (203s)
+03:14:47 [canet_b4 s44] ep 08/30 train 0.3218 val 0.1058 IoU@0.5 0.7386 Dice@0.5 0.8497 (202s)
+03:18:08 [canet_b4 s44] ep 09/30 train 0.3090 val 0.0984 IoU@0.5 0.7788 Dice@0.5 0.8757 (201s)
+03:21:29 [canet_b4 s44] ep 10/30 train 0.2921 val 0.0920 IoU@0.5 0.7931 Dice@0.5 0.8846 (200s)
+03:24:43 [canet_b4 s44] ep 11/30 train 0.2804 val 0.0939 IoU@0.5 0.7745 Dice@0.5 0.8729 (192s)
+03:27:54 [canet_b4 s44] ep 12/30 train 0.2684 val 0.0913 IoU@0.5 0.7900 Dice@0.5 0.8827 (191s)
+03:31:04 [canet_b4 s44] ep 13/30 train 0.2675 val 0.0936 IoU@0.5 0.7774 Dice@0.5 0.8748 (189s)
+03:34:18 [canet_b4 s44] ep 14/30 train 0.2670 val 0.0903 IoU@0.5 0.7725 Dice@0.5 0.8717 (193s)
+03:37:31 [canet_b4 s44] ep 15/30 train 0.2575 val 0.0898 IoU@0.5 0.7742 Dice@0.5 0.8727 (193s)
+03:40:44 [canet_b4 s44] ep 16/30 train 0.2809 val 0.0994 IoU@0.5 0.7689 Dice@0.5 0.8693 (192s)
+03:43:55 [canet_b4 s44] ep 17/30 train 0.2746 val 0.1048 IoU@0.5 0.7587 Dice@0.5 0.8628 (191s)
+03:47:08 [canet_b4 s44] ep 18/30 train 0.2747 val 0.0952 IoU@0.5 0.7391 Dice@0.5 0.8500 (192s)
+03:50:21 [canet_b4 s44] ep 19/30 train 0.2647 val 0.0961 IoU@0.5 0.7390 Dice@0.5 0.8499 (192s)
+03:53:32 [canet_b4 s44] ep 20/30 train 0.2572 val 0.0977 IoU@0.5 0.7109 Dice@0.5 0.8310 (190s)
+03:56:45 [canet_b4 s44] ep 21/30 train 0.2481 val 0.0890 IoU@0.5 0.7693 Dice@0.5 0.8696 (193s)
+03:56:46 [canet_b4 s44] time budget reached at epoch 21; resume later
+03:57:16 [bench] canet_b4: 29.39M params, 2.3 GFLOPs, gpu_latency_ms_bs1_fp32 23.8, gpu_latency_ms_bs1_fp16 25.4, gpu_throughput_img_s_bs8_fp16 298.7, gpu_peak_mem_MB_bs8_fp16 204.8, gpu_throughput_img_s_bs64_fp16 864.9, gpu_peak_mem_MB_bs64_fp16 646.9, cpu_latency_ms_bs1_fp32 71.7
+03:57:39 [bench] unet: 31.04M params, 24.1 GFLOPs, gpu_latency_ms_bs1_fp32 7.3, gpu_latency_ms_bs1_fp16 3.7, gpu_throughput_img_s_bs8_fp16 468.0, gpu_peak_mem_MB_bs8_fp16 288.6, gpu_throughput_img_s_bs64_fp16 529.8, gpu_peak_mem_MB_bs64_fp16 1540.0, cpu_latency_ms_bs1_fp32 162.4
+03:58:14 [bench] canet_b4_twopass: 29.39M params, 3.3 GFLOPs, gpu_latency_ms_bs1_fp32 46.2, gpu_latency_ms_bs1_fp16 47.5, gpu_throughput_img_s_bs8_fp16 163.5, gpu_peak_mem_MB_bs8_fp16 202.3, gpu_throughput_img_s_bs64_fp16 492.3, gpu_peak_mem_MB_bs64_fp16 438.2, cpu_latency_ms_bs1_fp32 127.7
+03:58:25 # CANet-B4 vs baselines: final comparison
+
+Test split: 3840 patches, 722 with rust, 8.1% rust pixels. Threshold chosen per run on val (IoU-maximising, grid 0.05–0.95), then frozen for test. Metrics pooled over all test pixels; mean ± sample std over seeds.
+
+## Accuracy (test split, val-selected threshold)
+
+| Model | Seeds | IoU | Dice | Precision | Recall | Specificity | Accuracy | IoU @0.5 | Threshold |
+|---|---|---|---|---|---|---|---|---|---|
+| **canet_b4** (ours) | 2 | 0.7016 ± 0.0011 | 0.8246 ± 0.0008 | 0.8057 ± 0.0032 | 0.8444 ± 0.0018 | 0.9821 ± 0.0004 | 0.9710 ± 0.0002 | 0.6809 ± 0.0084 | 0.70 |
+| unet | 2 | 0.7546 ± 0.0043 | 0.8601 ± 0.0028 | 0.8554 ± 0.0128 | 0.8651 ± 0.0074 | 0.9871 ± 0.0014 | 0.9773 ± 0.0007 | 0.7363 ± 0.0075 | 0.65 |
+
+## Against the NWRD paper (UNet + APF)
+
+| Result | Precision | Recall | F1 / Dice | IoU |
+|---|---|---|---|---|
+| Paper, Table 3, full test set | 0.506 | 0.624 | 0.557 | – |
+| Paper, Table 4, background-only patches removed | 0.593 | 0.552 | 0.564 | 0.438 |
+| canet_b4, re-run: all test patches | 0.806 | 0.844 | 0.825 | 0.702 |
+| canet_b4, re-run: rust-positive test patches (≈ Table 4) | 0.915 | 0.844 | 0.878 | 0.783 |
+| unet, re-run: all test patches | 0.855 | 0.865 | 0.860 | 0.755 |
+| unet, re-run: rust-positive test patches (≈ Table 4) | 0.914 | 0.865 | 0.889 | 0.800 |
+
+Every model here sees 128px tiles re-cut at 0.5× scale, the paper's own patch size and field of view (nwrd/tiles.py). The paper's test photographs, training (APF, 500 epochs, focal loss) and patch sampling still differ, so its rows are reference points, not a paired comparison. The `unet` row is the paper's architecture re-trained under this protocol, so CANet vs `unet` is the like-for-like comparison.
+
+## Is the difference real? (CANet-B4 minus baseline, test split)
+
+| Baseline | Paired seeds | ΔIoU | 95% CI, resampling photographs | 95% CI, resampling patches | ΔDice | ΔDice 95% CI, photographs | seed-level t-test p |
+|---|---|---|---|---|---|---|---|
+| unet | 2 | -0.0530 | [-0.0956, -0.0092] (p 0.0216) | [-0.0706, -0.0356] (p 0.0000) | -0.0355 | [-0.0663, -0.0061] (p 0.0216) | 0.0464 |
+
+A CI that excludes 0 means the gap is larger than test-set sampling noise. Use the photograph interval: the test patches are cut from a few photographs, and patches of one photograph are not independent, so resampling patches understates the uncertainty. Neither bootstrap captures training-run variance; the seed-level t-test does, but has little power with 3 seeds.
+
+## Efficiency (Tesla T4, 128x128 input, torch 2.10.0+cu128)
+
+| Model | Params (M) | GFLOPs | latency_ms_bs1_fp32 | latency_ms_bs1_fp16 | throughput_img_s_bs8_fp16 | peak_mem_MB_bs8_fp16 | throughput_img_s_bs64_fp16 | peak_mem_MB_bs64_fp16 | CPU latency bs1 (ms) | Train min/epoch |
+|---|---|---|---|---|---|---|---|---|---|---|
+| canet_b4 | 29.39 | 2.3 | 23.8 | 25.4 | 298.7 | 204.8 | 864.9 | 646.9 | 72 | 3.1 |
+| unet | 31.04 | 24.1 | 7.3 | 3.7 | 468.0 | 288.6 | 529.8 | 1540.0 | 162 | 1.7 |
+| canet_b4_twopass | 29.39 | 3.3 | 46.2 | 47.5 | 163.5 | 202.3 | 492.3 | 438.2 | 128 | – |
+
+`canet_b4_twopass` is CANet as originally implemented (encoder run twice per forward). Outputs are bit-identical to `canet_b4`; only the cost differs.
+
+## Models
+
+- `canet_b4` — CANet, EfficientNet-B4 encoder (ours)
+- `unet` — UNet, 4 encoder / 4 decoder blocks, from scratch (NWRD paper baseline)
+
+03:58:25 INCOMPLETE: re-run the same command in a new session to continue.
+--- new session: restored previous runs from /kaggle/input/nwrd-128px-canet-vs-unet/runs
+12:28:03 data: /kaggle/input/datasets/abdur548/nwrd-patched/wheat_rust_patches
+12:30:33 tiles: train 8160 patches -> 32640 tiles (6939 with rust)
+12:30:44 tiles: val 480 patches -> 1920 tiles (313 with rust)
+12:31:05 tiles: test 960 patches -> 3840 tiles (722 with rust)
+12:31:05 data: 128px tiles at 0.5x in /tmp/nwrd_tiles_128px_x0.5
+12:31:08 [canet_b4 s44] data: {'disease': 6939, 'bg_kept': 5140, 'bg_total': 25701, 'train_used': 12079, 'val': 1920, 'pos_weight': 2.7811314368250226}
+12:31:19 [canet_b4 s44] resumed at epoch 21
+12:35:30 [canet_b4 s44] ep 22/30 train 0.2441 val 0.1086 IoU@0.5 0.6895 Dice@0.5 0.8163 (251s)
+12:38:38 [canet_b4 s44] ep 23/30 train 0.2367 val 0.0936 IoU@0.5 0.7168 Dice@0.5 0.8351 (187s)
+12:41:45 [canet_b4 s44] ep 24/30 train 0.2320 val 0.1032 IoU@0.5 0.7160 Dice@0.5 0.8345 (187s)
+12:44:54 [canet_b4 s44] ep 25/30 train 0.2322 val 0.0989 IoU@0.5 0.7119 Dice@0.5 0.8317 (188s)
+12:48:02 [canet_b4 s44] ep 26/30 train 0.2239 val 0.1030 IoU@0.5 0.7071 Dice@0.5 0.8284 (188s)
+12:51:11 [canet_b4 s44] ep 27/30 train 0.2191 val 0.1025 IoU@0.5 0.7032 Dice@0.5 0.8257 (188s)
+12:54:20 [canet_b4 s44] ep 28/30 train 0.2081 val 0.1076 IoU@0.5 0.6978 Dice@0.5 0.8220 (188s)
+12:57:28 [canet_b4 s44] ep 29/30 train 0.2082 val 0.1068 IoU@0.5 0.6858 Dice@0.5 0.8136 (187s)
+13:00:36 [canet_b4 s44] ep 30/30 train 0.1985 val 0.1059 IoU@0.5 0.6907 Dice@0.5 0.8170 (188s)
+13:01:05 [canet_b4 seed44] thr 0.75 | test IoU 0.7092 Dice 0.8299 P 0.8386 R 0.8214
+13:01:05 [unet s44] data: {'disease': 6939, 'bg_kept': 5140, 'bg_total': 25701, 'train_used': 12079, 'val': 1920, 'pos_weight': 2.7811314368250226}
+13:03:17 [unet s44] ep 01/30 train 0.4445 val 0.1297 IoU@0.5 0.7429 Dice@0.5 0.8525 (132s)
+13:05:02 [unet s44] ep 02/30 train 0.3770 val 0.1249 IoU@0.5 0.6978 Dice@0.5 0.8220 (104s)
+13:06:47 [unet s44] ep 03/30 train 0.3532 val 0.1050 IoU@0.5 0.7865 Dice@0.5 0.8805 (104s)
+13:08:32 [unet s44] ep 04/30 train 0.3357 val 0.1066 IoU@0.5 0.7553 Dice@0.5 0.8606 (105s)
+13:10:17 [unet s44] ep 05/30 train 0.3199 val 0.1019 IoU@0.5 0.7787 Dice@0.5 0.8756 (104s)
+13:12:02 [unet s44] ep 06/30 train 0.3520 val 0.1148 IoU@0.5 0.6961 Dice@0.5 0.8209 (105s)
+13:13:47 [unet s44] ep 07/30 train 0.3382 val 0.0975 IoU@0.5 0.7579 Dice@0.5 0.8623 (104s)
+13:15:32 [unet s44] ep 08/30 train 0.3342 val 0.1062 IoU@0.5 0.7464 Dice@0.5 0.8548 (105s)
+13:17:17 [unet s44] ep 09/30 train 0.3259 val 0.1022 IoU@0.5 0.7836 Dice@0.5 0.8786 (104s)
+13:19:02 [unet s44] ep 10/30 train 0.3112 val 0.0939 IoU@0.5 0.8007 Dice@0.5 0.8893 (105s)
+13:20:47 [unet s44] ep 11/30 train 0.3018 val 0.0994 IoU@0.5 0.7781 Dice@0.5 0.8752 (104s)
+13:22:32 [unet s44] ep 12/30 train 0.2972 val 0.0914 IoU@0.5 0.8031 Dice@0.5 0.8908 (105s)
+13:24:17 [unet s44] ep 13/30 train 0.2900 val 0.0924 IoU@0.5 0.7960 Dice@0.5 0.8864 (105s)
+13:26:02 [unet s44] ep 14/30 train 0.2859 val 0.0945 IoU@0.5 0.8042 Dice@0.5 0.8915 (104s)
+13:27:47 [unet s44] ep 15/30 train 0.2786 val 0.0896 IoU@0.5 0.7990 Dice@0.5 0.8883 (104s)
+13:29:32 [unet s44] ep 16/30 train 0.3178 val 0.0938 IoU@0.5 0.8039 Dice@0.5 0.8913 (104s)
+13:31:17 [unet s44] ep 17/30 train 0.3114 val 0.0921 IoU@0.5 0.7712 Dice@0.5 0.8708 (105s)
+13:33:02 [unet s44] ep 18/30 train 0.3131 val 0.0918 IoU@0.5 0.7543 Dice@0.5 0.8599 (105s)
+13:34:47 [unet s44] ep 19/30 train 0.3069 val 0.0999 IoU@0.5 0.7988 Dice@0.5 0.8882 (104s)
+13:36:32 [unet s44] ep 20/30 train 0.3024 val 0.1071 IoU@0.5 0.7714 Dice@0.5 0.8710 (104s)
+13:38:17 [unet s44] ep 21/30 train 0.2979 val 0.0876 IoU@0.5 0.8125 Dice@0.5 0.8965 (104s)
+13:40:02 [unet s44] ep 22/30 train 0.2962 val 0.1092 IoU@0.5 0.7750 Dice@0.5 0.8732 (104s)
+13:41:47 [unet s44] ep 23/30 train 0.2971 val 0.0865 IoU@0.5 0.7829 Dice@0.5 0.8782 (104s)
+13:43:32 [unet s44] ep 24/30 train 0.2895 val 0.0863 IoU@0.5 0.8036 Dice@0.5 0.8911 (104s)
+13:45:17 [unet s44] ep 25/30 train 0.2829 val 0.0876 IoU@0.5 0.7722 Dice@0.5 0.8714 (104s)
+13:47:02 [unet s44] ep 26/30 train 0.2819 val 0.0899 IoU@0.5 0.7989 Dice@0.5 0.8882 (104s)
+13:48:47 [unet s44] ep 27/30 train 0.2787 val 0.0890 IoU@0.5 0.8109 Dice@0.5 0.8956 (104s)
+13:50:32 [unet s44] ep 28/30 train 0.2743 val 0.0834 IoU@0.5 0.8106 Dice@0.5 0.8954 (105s)
+13:52:17 [unet s44] ep 29/30 train 0.2709 val 0.0952 IoU@0.5 0.7978 Dice@0.5 0.8875 (105s)
+13:54:02 [unet s44] ep 30/30 train 0.2664 val 0.0879 IoU@0.5 0.8058 Dice@0.5 0.8925 (104s)
+13:54:18 [unet seed44] thr 0.66 | test IoU 0.7393 Dice 0.8501 P 0.8406 R 0.8597
+13:54:27 # CANet-B4 vs baselines: final comparison
+
+Test split: 3840 patches, 722 with rust, 8.1% rust pixels. Threshold chosen per run on val (IoU-maximising, grid 0.05–0.95), then frozen for test. Metrics pooled over all test pixels; mean ± sample std over seeds.
+
+## Accuracy (test split, val-selected threshold)
+
+| Model | Seeds | IoU | Dice | Precision | Recall | Specificity | Accuracy | IoU @0.5 | Threshold |
+|---|---|---|---|---|---|---|---|---|---|
+| **canet_b4** (ours) | 3 | 0.7041 ± 0.0045 | 0.8264 ± 0.0031 | 0.8167 ± 0.0191 | 0.8367 ± 0.0134 | 0.9835 ± 0.0023 | 0.9716 ± 0.0011 | 0.6838 ± 0.0078 | 0.72 |
+| unet | 3 | 0.7495 ± 0.0094 | 0.8568 ± 0.0061 | 0.8505 ± 0.0124 | 0.8633 ± 0.0061 | 0.9867 ± 0.0013 | 0.9767 ± 0.0011 | 0.7311 ± 0.0104 | 0.65 |
+
+## Against the NWRD paper (UNet + APF)
+
+| Result | Precision | Recall | F1 / Dice | IoU |
+|---|---|---|---|---|
+| Paper, Table 3, full test set | 0.506 | 0.624 | 0.557 | – |
+| Paper, Table 4, background-only patches removed | 0.593 | 0.552 | 0.564 | 0.438 |
+| canet_b4, re-run: all test patches | 0.817 | 0.837 | 0.826 | 0.704 |
+| canet_b4, re-run: rust-positive test patches (≈ Table 4) | 0.918 | 0.837 | 0.875 | 0.778 |
+| unet, re-run: all test patches | 0.850 | 0.863 | 0.857 | 0.749 |
+| unet, re-run: rust-positive test patches (≈ Table 4) | 0.914 | 0.863 | 0.888 | 0.798 |
+
+Every model here sees 128px tiles re-cut at 0.5× scale, the paper's own patch size and field of view (nwrd/tiles.py). The paper's test photographs, training (APF, 500 epochs, focal loss) and patch sampling still differ, so its rows are reference points, not a paired comparison. The `unet` row is the paper's architecture re-trained under this protocol, so CANet vs `unet` is the like-for-like comparison.
+
+## Is the difference real? (CANet-B4 minus baseline, test split)
+
+| Baseline | Paired seeds | ΔIoU | 95% CI, resampling photographs | 95% CI, resampling patches | ΔDice | ΔDice 95% CI, photographs | seed-level t-test p |
+|---|---|---|---|---|---|---|---|
+| unet | 3 | -0.0454 | [-0.0809, -0.0056] (p 0.0276) | [-0.0608, -0.0299] (p 0.0000) | -0.0304 | [-0.0556, -0.0037] (p 0.0276) | 0.0297 |
+
+A CI that excludes 0 means the gap is larger than test-set sampling noise. Use the photograph interval: the test patches are cut from a few photographs, and patches of one photograph are not independent, so resampling patches understates the uncertainty. Neither bootstrap captures training-run variance; the seed-level t-test does, but has little power with 3 seeds.
+
+## Efficiency (Tesla T4, 128x128 input, torch 2.10.0+cu128)
+
+| Model | Params (M) | GFLOPs | latency_ms_bs1_fp32 | latency_ms_bs1_fp16 | throughput_img_s_bs8_fp16 | peak_mem_MB_bs8_fp16 | throughput_img_s_bs64_fp16 | peak_mem_MB_bs64_fp16 | CPU latency bs1 (ms) | Train min/epoch |
+|---|---|---|---|---|---|---|---|---|---|---|
+| canet_b4 | 29.39 | 2.3 | 23.8 | 25.4 | 298.7 | 204.8 | 864.9 | 646.9 | 72 | 3.1 |
+| unet | 31.04 | 24.1 | 7.3 | 3.7 | 468.0 | 288.6 | 529.8 | 1540.0 | 162 | 1.7 |
+| canet_b4_twopass | 29.39 | 3.3 | 46.2 | 47.5 | 163.5 | 202.3 | 492.3 | 438.2 | 128 | – |
+
+`canet_b4_twopass` is CANet as originally implemented (encoder run twice per forward). Outputs are bit-identical to `canet_b4`; only the cost differs.
+
+## Models
+
+- `canet_b4` — CANet, EfficientNet-B4 encoder (ours)
+- `unet` — UNet, 4 encoder / 4 decoder blocks, from scratch (NWRD paper baseline)
+

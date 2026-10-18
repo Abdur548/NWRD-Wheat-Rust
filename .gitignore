@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+build/
+dist/
+
+# Model weights: only the Git LFS app model (app/assets/best_model.pth) is versioned
+*.pt
+*.pth
+!app/assets/best_model.pth
+
+# Experiment outputs that are not curated results
+runs/
+runs_kaggle/
+data/
+
+# Generated documents (python scripts/md_to_pdf.py)
+pdf/
+
+# Frontend
+app/frontend/node_modules/
+app/frontend/dist/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,29 @@
+# Exact versions the test suite last passed with (Python 3.13, CPU, 2026-10-17).
+# Use as: pip install -e ".[app,dev,docs]" -c constraints.txt
+# The Kaggle runs used Kaggle's own image; see results/README.md.
+# direct dependencies (pyproject.toml)
+numpy==2.2.6
+torch==2.7.1
+opencv-python-headless==4.12.0.88
+albumentations==2.0.8
+segmentation-models-pytorch==0.5.0
+efficientnet-pytorch==0.7.1
+scipy==1.16.3
+matplotlib==3.10.8
+fastapi==0.138.0
+uvicorn==0.49.0
+python-multipart==0.0.32
+pillow==12.3.0
+streamlit==1.45.0
+pytest==8.4.2
+httpx==0.28.1
+ruff==0.16.5
+kaggle==2.2.4
+markdown==3.10.3
+pymupdf==1.27.2.3
+# key transitive dependencies
+albucore==0.0.24
+timm==1.0.22
+starlette==1.3.1
+pydantic==2.12.5
+pandas==2.2.3
